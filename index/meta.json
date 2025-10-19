@@ -1,0 +1,23 @@
+{
+  "parent_ids": [
+    "P_72898ea90a71"
+  ],
+  "parents": [
+    {
+      "id": "P_72898ea90a71",
+      "source": "policy.txt",
+      "path": "data\\raw\\policy.txt",
+      "children": [
+        "C_ea87e4be61a6",
+        "C_2058ba5c3391",
+        "C_a1d783a7a322",
+        "C_2314e2bb2816"
+      ],
+      "char_count": 2909
+    }
+  ],
+  "embedding_model": "intfloat/e5-base-v2",
+  "normalize": true,
+  "similarity": "cosine_via_inner_product",
+  "notes": "Parents only. Children are expanded at query time."
+}

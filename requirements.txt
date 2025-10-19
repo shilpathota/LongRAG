@@ -1,0 +1,30 @@
+# Core framework
+llama-index==0.11.16          # for HierarchicalNodeParser, SemanticSplitterNodeParser
+llama-index-core==0.11.16
+llama-index-embeddings-huggingface==0.3.0
+
+# Sentence embedding + reranker
+sentence-transformers==2.7.0  # for embedding + reranker (BAAI/bge-base, bge-reranker)
+transformers==4.44.2
+torch==2.4.0
+accelerate==0.33.0
+
+# Vector store
+faiss-cpu==1.8.0
+
+# Web requests
+requests==2.32.3
+
+# Optional: serving API (if you’ll expose endpoints)
+fastapi==0.115.2
+uvicorn==0.30.3
+
+# Utilities
+numpy==1.26.4
+pandas==2.2.2
+tqdm==4.66.4
+
+# Optional (for document parsing)
+unstructured==0.15.8          # handles PDFs, DOCX, HTML if needed
+python-docx==1.1.2
+pypdf2==3.0.1

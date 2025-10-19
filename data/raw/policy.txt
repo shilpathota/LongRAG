@@ -1,0 +1,73 @@
+COMPANY DATA SECURITY POLICY
+----------------------------------------
+
+SECTION 1: PURPOSE
+The purpose of this policy is to establish and promote responsible data protection practices within the company.
+Our goal is to ensure that all employees, contractors, and third-party partners handle company data in a secure,
+compliant, and transparent manner. This document also defines the accountability structure and audit procedures
+to verify ongoing compliance with applicable privacy laws such as GDPR, CCPA, and HIPAA.
+
+SECTION 2: SCOPE
+This policy applies to all systems, applications, cloud platforms, and devices owned or managed by the company.
+It covers digital and physical data including, but not limited to, customer information, employee records,
+intellectual property, financial data, and project documents.
+
+SECTION 3: DATA CLASSIFICATION
+All company data must be classified into one of the following categories:
+1. PUBLIC – Data that may be shared without restriction.
+2. INTERNAL – Information used within the company that should not be exposed externally.
+3. CONFIDENTIAL – Data requiring restricted access; examples include HR files and contracts.
+4. HIGHLY CONFIDENTIAL – Sensitive data such as credentials, encryption keys, and medical details.
+Proper labeling, encryption, and access control should correspond to each classification level.
+
+SECTION 4: ACCESS CONTROL
+Access to information systems shall be granted on a “least privilege” basis. All access requests must be
+approved by a department head and reviewed quarterly. Multi-factor authentication (MFA) is mandatory for
+remote connections. Service accounts must be rotated every 90 days and disabled if unused for 30 days.
+
+SECTION 5: DATA STORAGE AND RETENTION
+All customer and employee data must be stored on encrypted drives or cloud storage with AES-256 encryption.
+Data older than five years should be archived and securely deleted if no longer required for business or legal
+reasons. Temporary files containing sensitive data must be deleted within 24 hours after use.
+
+SECTION 6: INCIDENT RESPONSE
+All security incidents must be reported immediately to the Information Security (InfoSec) team.
+Incidents include unauthorized access, data breaches, malware infection, or physical theft of devices.
+The InfoSec team shall log each incident, assign a severity level, notify management, and perform a root-cause
+analysis within 48 hours. Lessons learned shall be documented in the incident register.
+
+SECTION 7: REMOTE WORK GUIDELINES
+Employees working remotely must use company-approved VPNs and ensure devices have up-to-date antivirus software.
+Wi-Fi networks must be secured with strong passphrases. Printing or copying confidential data to personal devices
+is strictly prohibited. Screens should auto-lock after 10 minutes of inactivity.
+
+SECTION 8: THIRD-PARTY MANAGEMENT
+Vendors handling company data must sign a Data Processing Agreement (DPA) and pass annual security assessments.
+Access should be limited to the minimum data necessary for contracted work. Breaches by third parties must be
+reported to the company within 24 hours of discovery.
+
+SECTION 9: TRAINING AND AWARENESS
+All employees must complete annual data-protection and cybersecurity training. New hires should complete initial
+training within 30 days of joining. Department heads are responsible for verifying completion and maintaining
+records of compliance.
+
+SECTION 10: POLICY REVIEW AND UPDATE
+This policy shall be reviewed every twelve months by the Information Security Committee or sooner if new
+regulations emerge. Updated versions will be published on the company intranet and communicated to all employees.
+Employees are required to acknowledge receipt and understanding of any changes.
+
+APPENDIX A: DEFINITIONS
+- Data Breach: Unauthorized acquisition or disclosure of personal or confidential data.
+- Encryption: Conversion of data into a format unreadable by unauthorized persons.
+- MFA: Multi-Factor Authentication combining two or more verification methods.
+- PII: Personally Identifiable Information, such as names, addresses, and identification numbers.
+
+APPENDIX B: QUICK REFERENCE CHECKLIST
+□ Classify all data before storage.
+□ Use company VPN for remote access.
+□ Report incidents within one hour.
+□ Do not email confidential data unencrypted.
+□ Delete temporary sensitive files promptly.
+□ Complete annual cybersecurity training.
+
+END OF DOCUMENT
