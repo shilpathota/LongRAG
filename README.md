@@ -35,12 +35,12 @@ Total would be approx - 6 GB of space is required.
 
 ### Ingestion Pipeline
 4. For Preprocessing of the raw text, I'm using Hierarchial chunking strategy where the parent is chunked in 2048 bytes which is static length but I want to use hybrid strategy where Child is chunked based on sematic meaning and not the static length
-<table>
-<th><td>Goal</td>	<td>Technique</td></th>
+<table><thead>
+<tr><td>Goal</td>	<td>Technique</td></tr></thead><tbody>
 <tr><td>Preserve document structure (chapter → section → paragraph)</td>	<td>Hierarchical chunking</td></tr>
 <tr><td>Split large sections precisely where topic changes</td>	<td>Semantic splitting</td></tr>
 <tr><td>Avoid cutting in the middle of sentences or semantic units</td>	<td>Semantic splitting</td></tr>
-<tr><td>Maintain parent–child traceability</td>	<td>Hierarchical chunking</td></tr>
+<tr><td>Maintain parent–child traceability</td>	<td>Hierarchical chunking</td></tr></tbody>
 </table>
 
 api/ingest.py gives the steps for preprocess.
